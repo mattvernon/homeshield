@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="30px" viewBox="0 0 32 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>trophy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-146.000000, -890.000000)">
+        <g id="trophy" transform="translate(147.000000, 891.000000)" stroke="#3EB66A" stroke-width="2">
+            <path d="M11.1260681,6 L10.9999971,6 C9.3431444,6 8,4.6568556 8,3.0000029 L8,0 L11,0" id="Shape"></path>
+            <path d="M18.8739319,6 L19.0000038,6 C20.6568546,6 22,4.6568556 22,3.0000029 L22,0 L19,0" id="Shape"></path>
+            <rect id="Rectangle-path" stroke-linecap="square" x="9" y="17" width="12" height="11"></rect>
+            <polyline id="Shape" stroke-linecap="square" points="9 28 0 28 0 21 9 21"></polyline>
+            <polyline id="Shape" stroke-linecap="square" points="21 24 30 24 30 28 21 28"></polyline>
+            <path d="M15.0000038,9 L14.9999962,9 C12.7908592,9 11,7.2091408 11,5.0000038 L11,0 L19,0 L19,5.0000038 C19,7.2091408 17.2091408,9 15.0000038,9 Z" id="Shape" stroke-linecap="square"></path>
+            <path d="M15,9 L15,13" id="Shape" stroke-linecap="square"></path>
+            <path d="M12,13 L18,13" id="Shape" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>

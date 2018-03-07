@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+// Webfonts =======================================================
+
+@font-face {
+  font-family: 'Graphik';
+  src: url("fonts/Graphik-Bold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url("fonts/Graphik-Medium.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url("fonts/Graphik-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+// Variables =======================================================
+
+// Colours
+
+$navy: #221B63;
+$green: #80EEA8;
+$grey1: #F5FBFF;
+$grey2: #605D7D;
+
+// Import partials.
+@import
+  "base",
+  "pages/index",
+  "modules/header"
+;

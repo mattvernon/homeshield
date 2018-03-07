@@ -1,0 +1,270 @@
+.hero {
+
+  padding-bottom: 100px;
+
+  h1 {
+    max-width: 460px;
+  }
+
+  p {
+    max-width: 520px;
+  }
+
+  a {
+    margin-top: 30px;
+  }
+
+}
+
+// WHY
+
+#why {
+  padding: 80px 0;
+  background-color: white;
+  margin: 0;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+}
+
+.icon-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.icon-block {
+  padding: 0 10px;
+}
+
+.icon-block:first-child {
+  padding-left: 0;
+}
+
+.icon-block:last-child {
+  padding-right: 0;
+}
+
+// PROTECTION
+
+#protection {
+  // background-color: white;
+  position: relative;
+  overflow: hidden;
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    img {
+      margin-top: 40px;
+    }
+  }
+}
+
+.all-around-protection {
+
+  h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+
+  .and-more {
+    margin-bottom: 60px;
+  }
+}
+
+.ground-border {
+  height: 6px;
+  background-color: #3EB66A;
+  position: absolute;
+  top: 375px;
+  left: 0;
+  max-width: 300vh;
+  width: 300vh;
+}
+
+.section-bg {
+  background-color: white;
+  width: 100%;
+  height: calc(100% - 190px);
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.we-protect {
+  z-index: -2;
+  margin-top: -165px;
+  background-image: linear-gradient(-180deg, #81EEA9 0%, #FFFFFF 100%);
+  padding-bottom: 100px;
+
+  h2 {
+    margin-top: 60px;
+    font-size: 26px;
+    max-width: 400px;
+    line-height: 1.3;
+  }
+
+  .wrapper div {
+    display: flex;
+    align-items: center;
+
+    img {
+      margin-right: 30px;
+    }
+  }
+}
+
+
+// HOW IT WORKS
+
+#how-it-works {
+  background-color: white;
+  text-align: center;
+
+  h2 {
+    margin-bottom: 60px;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  small {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: $grey2;
+    font-weight: 600;
+  }
+
+  p {
+    font-size: 14px;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .icon-block {
+    flex: 3;
+  }
+
+  .icon-block:nth-of-type(2) {
+    flex: 4;
+  }
+
+  .icon-block:nth-of-type(3) {
+    flex: 2;
+  }
+}
+
+// customers
+
+#customers {
+  background-color: $grey1;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  h2 {
+    margin-bottom: 30px;
+    max-width: 500px;
+  }
+
+  p {
+    max-width: 300px;
+  }
+}
+
+// clients
+
+#clients {
+  background-color: white;
+  padding: 100px 0 60px 0;
+  text-align: center;
+
+  p {
+    max-width: 600px;
+    margin: 30px auto;
+  }
+
+  p:last-child {
+    font-weight: 700;
+  }
+}
+
+.client-logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+// buynow
+
+#buynow {
+  background-color: $grey1;
+  padding: 100px 0 60px 0;
+
+  .wrapper {
+    background-image: url('images/photos/product.png');
+    background-size: auto 90%;
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 600px;
+
+    h2 {
+      max-width: 581px;
+      font-size: 56px;
+      margin-bottom: 20px;
+    }
+
+    h4 {
+      font-size: 28px;
+      letter-spacing: -1px;
+    }
+
+    ul {
+      padding-left: 0;
+      margin-top: 30px;
+    }
+
+    li {
+      list-style: none;
+      background-image: url('images/icons/tick.svg');
+      background-repeat: no-repeat;
+      background-position: 0 center;
+      padding-left: 40px;
+      margin-bottom: 15px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
