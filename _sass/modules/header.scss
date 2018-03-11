@@ -8,9 +8,15 @@ header {
     margin: 0;
   }
 
-  a {
+  nav a {
     margin-left: 20px;
     font-weight: 600;
+  }
+
+  nav {
+    @include medium {
+      display: none;
+    }
   }
 
   .button {
@@ -23,16 +29,28 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 100px;
+  @include medium {
+      flex-direction: column;
+  }
 
   a {
     margin-left: 20px;
     font-weight: 600;
   }
 
+  nav {
+    @include medium {
+        display: none;
+    }
+  }
+
   .product-by {
     display: flex;
     align-items: center;
+
+    @include medium {
+        display: none;
+    }
   }
 
   span {
@@ -48,5 +66,16 @@ footer {
     border-radius: 4px;
     width: 116px;
     height: 36px;
+  }
+}
+
+.fixed--footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  @include small {
+      position: initial;
   }
 }

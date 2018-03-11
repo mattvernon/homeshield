@@ -33,9 +33,31 @@ $green: #80EEA8;
 $grey1: #F5FBFF;
 $grey2: #605D7D;
 
+// Media queries
+
+@mixin small {
+  @media (max-width: 680px) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media (max-width: 1150px) {
+    @content;
+  }
+}
+
+
+@mixin large {
+  @media (min-width: 1151px) {
+    @content;
+  }
+}
+
 // Import partials.
 @import
   "base",
   "pages/index",
+  "pages/infopages",
   "modules/header"
 ;

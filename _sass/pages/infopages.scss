@@ -1,0 +1,60 @@
+.hero--subscribed {
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 900px;
+  padding: 30px;
+
+  @include small {
+      position: initial;
+      transform: none;
+      margin-bottom: 60px;
+  }
+
+  h1 {
+    margin: 0 auto 30px auto;
+    @include small {
+        font-size: 36px;
+        letter-spacing: -1px;
+    }
+  }
+
+  p {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+}
+
+.contact {
+  margin: 60px auto 90px auto;
+  max-width: 900px;
+  text-align: center;
+  padding: 0 30px;
+
+  p {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+}
+
+textarea {
+  height: 30vh;
+}
+
+.contact--form {
+  margin-top: 60px;
+
+  input[type=text],
+  input[type=email],
+  textarea {
+    margin-bottom: 20px;
+    border: 2px solid #4ABE74;
+    @include small {
+        margin-bottom: 10px;
+    }
+  }
+}
