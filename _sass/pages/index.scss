@@ -295,6 +295,29 @@
     }
 }
 
+// experts
+
+#experts {
+  background-color: $green;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  .wrapper {
+    max-width: 900px;
+  }
+
+  h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    max-width: 500px;
+    margin: 20px auto;
+  }
+}
+
 // buynow
 
 #buynow {

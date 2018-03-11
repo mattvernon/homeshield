@@ -34,3 +34,29 @@ $('a[href*="#"]')
       }
     }
   });
+
+// mobile nav
+
+$('#nav-icon3').click(function(){
+
+  // open hamburger icon, animate and change color
+  $(this).toggleClass('open');
+
+  // 2. show mobile header
+  $('#mobile-nav').toggleClass('mobileNavOpen')
+
+  // 3. stop scrolling page
+  $('body').toggleClass('hidden');
+
+  return false
+
+});
+
+
+$('.mobileNavLink').click(function(){
+
+  $('#mobile-nav').removeClass('mobileNavOpen');
+  $('#nav-icon3').removeClass('open');
+  $('body').removeClass('hidden');
+
+});

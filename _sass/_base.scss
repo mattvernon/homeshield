@@ -9,6 +9,10 @@ body {
   margin: 0;
 }
 
+.hidden {
+  overflow: hidden;
+}
+
 body.green {
   background-color: $green;
 }
