@@ -152,3 +152,7 @@ button {
 .button.square:hover {
   cursor: pointer;
 }
+
+section:focus {
+  outline: none;
+}
