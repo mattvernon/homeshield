@@ -247,17 +247,25 @@
   }
 
   p {
-    max-width: 300px;
+    max-width: 400px;
   }
 
   .icon-block {
     flex: 1;
 
     @include small {
-      flex: none;
+        flex: none;
         width: 100%;
       }
   }
+}
+
+.image-block {
+  background-color: $navy;
+  background-size: cover;
+  height: 280px;
+  width: 100%;
+  border-radius: 4px;
 }
 
 // clients
